@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хранилище | Редактирование заявки </title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="header admin-header">
+        <div class="wrapper">
+            <a href="./admin.html" class="logo-link">
+                Хранилище | АДМИН - ПАНЕЛЬ
+            </a>
+            <nav class="header-nav">
+                <button class="btn">
+                    <svg id="icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: none;
+                                    stroke: none;
+                                }
+                            </style>
+                        </defs>
+                        <title />
+                        <path fill="#fff" stroke="#333"
+                            d="M22,22v6H6V4H16V2H6A2,2,0,0,0,4,4V28a2,2,0,0,0,2,2H22a2,2,0,0,0,2-2V22Z"
+                            transform="translate(0)" />
+                        <path fill="#fff"
+                            d="M29.54,5.76l-3.3-3.3a1.6,1.6,0,0,0-2.24,0l-14,14V22h5.53l14-14a1.6,1.6,0,0,0,0-2.24ZM14.7,20H12V17.3l9.44-9.45,2.71,2.71ZM25.56,9.15,22.85,6.44l2.27-2.27,2.71,2.71Z"
+                            transform="translate(0)" />
+                        <rect class="cls-1" data-name="&lt;Transparent Rectangle&gt;" height="32"
+                            id="_Transparent_Rectangle_" width="32" />
+                    </svg>
+
+                    Заявки
+                </button>
+                <button class="btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: none;
+                                    stroke: #fff;
+                                    stroke-linecap: round;
+                                    stroke-linejoin: round;
+                                    stroke-width: 2px;
+                                }
+                            </style>
+                        </defs>
+                        <title />
+                        <g id="logout">
+                            <line fill="#fff" class="cls-1" x1="15.92" x2="28.92" y1="16" y2="16" />
+                            <path fill="#fff"
+                                d="M23.93,25v3h-16V4h16V7h2V3a1,1,0,0,0-1-1h-18a1,1,0,0,0-1,1V29a1,1,0,0,0,1,1h18a1,1,0,0,0,1-1V25Z" />
+                            <line class="cls-1" x1="28.92" x2="24.92" y1="16" y2="20" />
+                            <line class="cls-1" x1="28.92" x2="24.92" y1="16" y2="12" />
+                            <line class="cls-1" x1="24.92" x2="24.92" y1="8.09" y2="6.09" />
+                            <line class="cls-1" x1="24.92" x2="24.92" y1="26" y2="24" />
+                        </g>
+                    </svg>
+                    Выйти
+
+                </button>
+            </nav>
+        </div>
+    </header>
+    <section class="edit-section">
+        <div class="wrapper">
+            <h2 class="subheading">
+                Редактирование заявки #353
+            </h2>
+            <img src="https://storagemsk.ru/images/9/6.jpg" alt="" class="edit-section-img">
+            <select name="type" id="" class="edit-section-select">
+                <option value="">
+                    Хранение на складе
+                </option>
+                <option value="">
+                    Аренда бокса
+                </option>
+                <option value="">
+                    Аренда ячейки
+                </option>
+            </select>
+            <div class="edit-section-row">
+                <label>
+                    Площадь
+                    <select name="" id="">
+                        <option value="">
+                            1 м²
+                        </option>
+                        <option value="">
+                            2 м²
+                        </option>
+                        <option value="">
+                            4 м²
+                        </option>
+                        <option value="">
+                            6 м²
+                        </option>
+                        <option value="">
+                            8 м²
+                        </option>
+                        <option value="">
+                            10 м²
+                        </option>
+                        <option value="">
+                            12 м²
+                        </option>
+                    </select>
+                </label>
+                <label>
+                    Срок
+                    <select name="" id="">
+                        <option value="">
+                            1 месяц
+                        </option>
+                        <option value="">
+                            2 месяца
+                        </option>
+                        <option value="">   
+                            4 месяца
+                        </option>
+                        <option value="">
+                            6 месяцев
+                        </option>
+                        <option value="">
+                            12 месяцев
+                        </option>
+                        <option value="">
+                            24 месяца
+                        </option>
+                    </select>
+                </label>
+                <label>
+                    Стоимость
+                    <input type="text" value="12 000">
+                </label>
+            </div>
+            <div class="edit-section-menu">
+                <button class="btn edit-section-btn edit-section-btn-blue ">
+                    Сохранить
+                </button>
+                <button class="btn edit-section-btn edit-section-btn-red">
+                    Сбросить
+                </button>
+            </div>
+            <a href="#" class="btn edit-section-btn edit-section-btn-gray">
+                Назад
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
